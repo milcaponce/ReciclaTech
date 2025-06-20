@@ -1,0 +1,14 @@
+{
+    "locality": {
+        "recycling_points": [
+            {
+                "name": "Centro de Reciclaje A",
+                "address": "Calle 123, Ciudad"
+            },
+            {
+                "name": "Centro de Reciclaje B",
+                "address": "Avenida 456, Ciudad"
+            }
+        ]
+    }
+}
