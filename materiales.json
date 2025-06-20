@@ -1,0 +1,20 @@
+[
+    {
+      "nombre": "plástico",
+      "contenedor": "amarillo",
+      "consejos": "Aplasta las botellas antes de reciclarlas.",
+      "cuidados": "Limpia los envases para evitar olores."
+    },
+    {
+      "nombre": "vidrio",
+      "contenedor": "verde",
+      "consejos": "Quita las tapas metálicas.",
+      "cuidados": "Evita romperlos al depositarlos."
+    },
+    {
+      "nombre": "papel",
+      "contenedor": "azul",
+      "consejos": "No mezcles con servilletas sucias.",
+      "cuidados": "Evita que esté mojado o aceitoso."
+    }
+  ]

@@ -1,16 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e6f7ea; /* Fondo claro y verde */
     color: #333;
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #4caf50; /* Verde oscuro */
     color: white;
     padding: 1rem;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -27,6 +28,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -37,16 +39,79 @@ section {
     margin-bottom: 1rem;
     background-color: white;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    border: 2px solid #4caf50; /* Borde verde */
+    }
 
 h2 {
     margin-top: 0;
+    color: #4caf50;
+}
+
+.datos-curiosos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.datos-curiosos .dato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(33.333% - 1rem);
+    background-color: #d4f2e7; /* Fondo más claro para sección de datos curiosos */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.datos-curiosos .dato img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.datos-curiosos .dato p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.materiales {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.materiales .material {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(25% - 1rem);
+    background-color: #d4f2e7; /* Fondo más claro para sección de materiales */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.materiales .material img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.materiales .material p {
+    font-size: 1rem;
+    color: #333;
 }
 
 #ubicacion-detalle, #clima-detalle {
     font-size: 1.2rem;
+    color: #555;
 }
 
 #lugares-lista, #materiales ul, #datos ul, #manualidades ul {
@@ -56,11 +121,40 @@ h2 {
 
 #lugares-lista li, #materiales li, #datos li, #manualidades li {
     margin-bottom: 0.5rem;
+    color: #333;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #007BFF;
+    background-color: #4caf50; /* Pie de página en verde */
     color: white;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos adicionales para elementos específicos */
+a {
+    color: #4caf50; /* Enlaces en verde */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para secciones específicas */
+section#materiales {
+    background-color: white; /* Fondo más claro para sección de materiales */
+}
+
+section#datos {
+    background-color: white; /* Fondo más claro para sección de datos curiosos */
+}
+
+section#manualidades {
+    background-color: white; /* Fondo más claro para sección de manualidades */
+}
+
+section#clima {
+    background-color: white; /* Fondo más claro para sección de clima */
 }
